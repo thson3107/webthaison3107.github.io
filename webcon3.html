@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+</head>
+<body>
+        
+        <header>
+            <div id="logo">
+                <img src="images/NCK STOre.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>          
+                    <li><a href="#">Áo khoác</a></li>
+                    <li><a href="webcon1.html">Áo thun </a></li>
+                    <li><a href="webcon2.html">Áo dài tay</a></li>
+                    <li><a href="#">Quần</a></li>
+                    <li><a href="#">Giầy</a></li>
+                    <li><a href="#">Đặt hàng</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        <main>
+            <section class="order-form">
+                <h2>Trang Đặt Hàng</h2>
+                <form class="form-center" action="submit_order.php" method="post">
+                    <label for="product">Sản Phẩm:</label><br>
+                    <select id="product" name="product" required>
+                        <option value="">Chọn sản phẩm</option>
+                        <option value="product1">Áo thun Local Brand Otis Club - Tee OTS Top Cotton                    </option>
+                        <option value="product2">Áo phông 94HOST form rộng - Áo thun nam                           </option>
+                        <option value="product3">Áo thun Local Brand Otis Club - Tee OTIS SS 2024 Top Cổ Tròn        </option>
+                        <option value="product4">Calem Club - Áo Sweater bóng chày tay dài thể thao 77 poly 2 da form rộng       </option>
+                        <option value="product5">Áo Khoác Cardigan Teelab Basic Logo AK058 Menswear Nam Kem         </option>
+                        <option value="product6"> Calem Club - Áo Sweater bóng chày tay dài thể thao 77 poly 2 da form rộng                 </option>
+                        <option value="product7">Áo Khoác Nam, Áo Phao Béo Phong Cách Hàn Quốc                  </option>
+                        <option value="product8">Áo HOODIE SPIDERMAN Bản In Dập Nổi Cao Su Non - Chất Nỉ Bông Mũ Hai Lớp Đầy Đặn Form Nam                    </option>
+                        <option value="product9">Áo Hoodie Teelab Local Brand Unisex wash cupid HD071                   </option>
+                        <option value="product11">Quần Dù NOCTURNAL Sidelines Parachute Pants, Ống rộng túi hộp Local Brand</option>
+                        <option value="product12">Quần Jean Rách Nam, Ống Rộng Vừa Vặn.                 </option>
+                        <option value="product13">Quần jean dáng SR suông rộng                    </option>
+                        <option value="product3">Sneaker Vans Đế Bằng                  </option>
+                        <option value="product3">Giày AF1 Trắng                   </option>
+                        <option value="product3">Giày đốc nam da mềm, đế 4-5cm</option>
+                    </select><br>
+                    <label for="size">Size</label><br>
+        <select id="size" name="size" required>
+            <option value="">Chọn Size</option>
+            <option value="">S(size áo)</option>
+            <option value="">M(size áo)</option>
+            <option value="">L(size áo)</option>
+            <option value="">XL(size áo)</option>
+            <option value="">2XL(size áo)</option>
+            <option value="">3XL(size áo)</option>
+            <option value="36">36(size giầy)</option>
+            <option value="37">37(size giầy)</option>
+            <option value="38">38(size giầy)</option>
+            <option value="39">39(size giầy)</option>
+            <option value="40">40(size giầy)</option>
+            <option value="41">41(size giầy)</option>
+            <option value="42">42(size giầy)</option>
+            <option value="43">43(size giầy)</option>
+            <option value="44">44(size giầy)</option>
+        
+        </select><br>
+                    <label for="name">Họ và Tên:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="sodienthoai">Số điện thoại:</label><br>
+                    <input type="sodienthoai" id="sodienthoai" name="sodienthoai" required><br>
+                    <label for="diachi">Địa chỉ:</label><br>
+                    <input type="diachi" id="diachi" name="diachi" required><br>
+                    <label for="quantity">Số Lượng:</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1" required><br>
+                </select><br>
+                <button><a href="webcon4.html">Đặt hàng</a></button>    
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <h3>Giới thiệu</h3>
+                  <p>Đây là trang web bán hàng thời trang Dream Store mang phong cách tới các bạn trẻ</p>
+                  <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="https://www.facebook.com/tsonloser?locale=vi_VN">Facebook</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h3>Liên hệ</h3>
+                  <p>Địa chỉ:Phố Dâu Thanh Khương Thuận Thành Bắc Ninh</p>
+                  <p>Điện thoại:0328428888</p>
+                  <p>Email:caothaison@gmail.com</p>
+                  
+                </div>
+</body>
+</html>
